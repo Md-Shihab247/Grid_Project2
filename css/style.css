@@ -265,4 +265,54 @@
         margin: 0 auto;
     }
 
+    #managment h2{
+        color: #232323;
+        text-align: center;
+        font-family: "Space Grotesk", sans-serif;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 140%;  
+        letter-spacing: -2.4px;
+        max-width: 1200px;
+    }
+
+    #managment h2 img {
+        width: 162px;
+        position: relative;
+        top: -37px;
+        left: -47px;
+    }
+
+    .wrapper{
+        display: grid;
+        grid-template-columns: repeat(3, 379px);
+        margin-top: 64px;
+        gap: 32px;
+    }
+   .wrapper .item img{
+        width: 100%;
+    }
+
+
+    .wrapper .item h3{
+        color: #232323;
+        font-family: "Space Grotesk", sans-serif;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 140%; 
+        letter-spacing: -1.2px;
+        margin-top: 24px;
+        margin-bottom: 16px;
+    }
+    .wrapper .item p{
+        color:#757575;
+        font-family: "Inter", serif;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 170%;
+        letter-spacing: -0.9px;
+    }
     /* management end */
